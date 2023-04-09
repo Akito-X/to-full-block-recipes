@@ -27,5 +27,5 @@ https://chat.openai.com/chat
 # Pythonのバージョン
 Python 3.11 64-bit
 
-#改変したらここに名前をしるそう
+# 改変したらここに名前をしるそう
 2023/4/9 Akito-X
