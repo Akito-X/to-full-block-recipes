@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_red_sandstone_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:red_sandstone_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_red_sandstone_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:normal/red_sandstone"
+        ]
+    }
+}

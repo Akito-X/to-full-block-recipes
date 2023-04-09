@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "X",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone_brick_slab",
+            "data": 0
+        },
+        "X": {
+            "item": "minecraft:slime_ball",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_bricks",
+        "count": 1
+    }
+}

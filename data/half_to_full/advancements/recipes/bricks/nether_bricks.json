@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_nether_brick_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:nether_brick_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_nether_brick_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:bricks/nether_bricks"
+        ]
+    }
+}

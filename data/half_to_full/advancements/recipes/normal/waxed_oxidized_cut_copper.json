@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_waxed_oxidized_cut_copper_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_waxed_oxidized_cut_copper_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:normal/waxed_oxidized_cut_copper"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_mossy_cobblestone_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mossy_cobblestone_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_mossy_cobblestone_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:normal/mossy_cobblestone"
+        ]
+    }
+}

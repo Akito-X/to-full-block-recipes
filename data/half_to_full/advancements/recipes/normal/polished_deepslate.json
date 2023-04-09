@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_polished_deepslate_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:polished_deepslate_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_polished_deepslate_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:normal/polished_deepslate"
+        ]
+    }
+}

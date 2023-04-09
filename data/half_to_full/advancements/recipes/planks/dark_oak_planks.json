@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_dark_oak_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dark_oak_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_dark_oak_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:planks/dark_oak_planks"
+        ]
+    }
+}

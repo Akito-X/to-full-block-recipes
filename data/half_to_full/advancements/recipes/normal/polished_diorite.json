@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_polished_diorite_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:polished_diorite_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_polished_diorite_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:normal/polished_diorite"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_mangrove_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mangrove_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_mangrove_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:planks/mangrove_planks"
+        ]
+    }
+}

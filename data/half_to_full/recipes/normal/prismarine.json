@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "X",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:prismarine_slab",
+            "data": 0
+        },
+        "X": {
+            "item": "minecraft:slime_ball",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine",
+        "count": 1
+    }
+}

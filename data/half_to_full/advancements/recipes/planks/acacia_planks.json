@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_acacia_slab": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:acacia_slab"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_acacia_slab"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "half_to_full:planks/acacia_planks"
+        ]
+    }
+}
